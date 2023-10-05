@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgb(128, 128, 128);
+    padding: 30px 20px;
+    width: min-content;
+    border-radius: 15px;
+    border: 1px solid;
+    
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.conclusion {
+    height: 40px;
+    width: 100%;
+    background: #c9c9c9;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    width: 200px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.symbol {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 20px;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50px;
+    border: none;
+    background: darkgrey;
+    border-radius: 10px;
+    z-index: 5;
+    box-shadow: 2px 2px #3d3d3d;
+}
+
+.buttons .btnEquals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50px;
+    border: none;
+    background: coral;
+    border-radius: 10px;
+    z-index: 5;
+    box-shadow: 2px 2px #3d3d3d;
+}
