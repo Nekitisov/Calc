@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
 }
+
 .calc {
     display: flex;
     flex-direction: column;
@@ -18,8 +19,9 @@
     width: min-content;
     border-radius: 15px;
     border: 1px solid;
-    
+
 }
+
 .header {
     display: flex;
     justify-content: flex-start;
@@ -33,9 +35,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-size: 4vh;
+    font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .container {
     display: flex;
     justify-content: center;
