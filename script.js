@@ -1,7 +1,7 @@
 let number = document.querySelectorAll('.btn'),
     equals = document.querySelector('.btnEquals'),
     conclusion = document.querySelector('#result'),
-    clear = document.querySelector('#ce');
+    clear = document.querySelector('#CE');
 
 
 number.forEach(function (id) {
@@ -21,4 +21,8 @@ equals.addEventListener('click', function () {
     } else if (text[1] === '/') {
         conclusion.innerHTML = +text[0] / +text[2]
     }
+})
+
+clear.addEventListener('click', function () {
+    conclusion.innerHTML = '';
 })
