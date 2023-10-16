@@ -58,6 +58,19 @@
     gap: 20px;
 }
 
+.clear1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50px;
+    border: none;
+    background: darkgrey;
+    border-radius: 10px;
+    z-index: 5;
+    box-shadow: 2px 2px #3d3d3d;
+    margin: 0 0 0 10px;
+}
 
 .btn {
     display: flex;

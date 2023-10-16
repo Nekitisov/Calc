@@ -1,7 +1,7 @@
 let number = document.querySelectorAll('.btn'),
     equals = document.querySelector('.btnEquals'),
     conclusion = document.querySelector('#result'),
-    clear = document.querySelector('#ce');
+    clear = document.querySelector('#CE');
 
 
 number.forEach(function (id) {
@@ -23,6 +23,6 @@ equals.addEventListener('click', function () {
     }
 })
 
-clear.addEventListener('click', () => {
+clear.addEventListener('click', function () {
     conclusion.innerHTML = '';
 })
