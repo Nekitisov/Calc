@@ -22,3 +22,7 @@ equals.addEventListener('click', function () {
         conclusion.innerHTML = +text[0] / +text[2]
     }
 })
+
+clear.addEventListener('click', () => {
+    conclusion.innerHTML = '';
+})
